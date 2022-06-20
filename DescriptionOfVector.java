@@ -54,7 +54,7 @@ public class DescriptionOfVector {
 
     }
 
-    public static Vector[] generate(int n) {
+    public static Vector[] generate(int n) { //Создание массива с случайчайными координатами;
       Vector[] vector = new Vector[n];
       for (int i = 0; i < n; i++) {
         vector[i] = new Vector(Math.random(), Math.random(), Math.random());
